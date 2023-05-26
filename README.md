@@ -1,6 +1,5 @@
 # Portfolio
-# this is my personal user responive website that allows me to  introduce myself to other. 
-
+# portfolio website that allows users to know me 
 #TECHNOLOGY
 * ReactJS
 * Nodejs
