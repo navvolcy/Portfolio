@@ -1,5 +1,5 @@
 # Portfolio
-# this is my personal user responive website that allows meto  introduce myself to other. 
+# this is my personal user responive website that allows me to  introduce myself to other. 
 
 #TECHNOLOGY
 * ReactJS
