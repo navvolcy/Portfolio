@@ -49,7 +49,19 @@ const Navbar = () => {
                     </Link>
                 </li>
             </ul>
-            
+            <div onClick={handleClick} className= 'md:hidden z-10'>
+                {!nav ? <FaBars/> : <Fatimes/>}
+            </div>
+            {/*Mobile menu */}
+            <ul className={!nav ?
+            'hidden'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}
+            >
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to='home' smooth={true} duration={500}></Link>
+                </li>
+
+            </ul>
         </div>
     )
 }
